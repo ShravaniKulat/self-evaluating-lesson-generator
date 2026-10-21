@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-10-21T14:15:30.329648+00:00",
+  "repeated_failure_patterns": [
+    {
+      "pattern_id": "PAT_001",
+      "dimension": "Clear Explanations Without Unexplained Jargon",
+      "issue": "Using the word 'embeddings' or 'vector database' without explaining it in terms of everyday objects.",
+      "guidance": "Always explain embeddings as 'numerical meaning codes' and vector databases as 'organized library shelves where books with similar topics sit together'."
+    },
+    {
+      "pattern_id": "PAT_002",
+      "dimension": "Teaching Through Examples",
+      "issue": "Using an analogy (like a library or exam) but forgetting to explicitly connect every component back to RAG technical steps.",
+      "guidance": "Explicitly draw a 1-to-1 comparison table or bullet list: Student = AI, Textbook = Knowledge Base, Opening book = Retrieval, Writing answer = Generation."
+    },
+    {
+      "pattern_id": "PAT_003",
+      "dimension": "Beginner-Friendly Language",
+      "issue": "Using complex sentence structures exceeding 30 words with subordinate clauses.",
+      "guidance": "Break complex sentences into two or three short sentences with simple connectors like 'Because', 'So', 'For example'."
+    }
+  ],
+  "run_insights": [
+    {
+      "run_id": "run_20261021_140503_3144c4",
+      "timestamp": "2026-10-21T14:05:03.871889+00:00",
+      "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+      "failed_checkpoints": [
+        "CHK_ACC_01"
+      ],
+      "insight": "Observed 1 checkpoint failures during run.",
+      "applied_correction": "Reinforce early jargon definitions and explicit analogy-to-system mappings in initial generation."
+    },
+    {
+      "run_id": "run_20261021_141530_3ed777",
+      "timestamp": "2026-10-21T14:15:30.329600+00:00",
+      "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+      "failed_checkpoints": [
+        "CHK_ACC_01"
+      ],
+      "insight": "Observed 1 checkpoint failures during run.",
+      "applied_correction": "Reinforce early jargon definitions and explicit analogy-to-system mappings in initial generation."
+    }
+  ]
+}
